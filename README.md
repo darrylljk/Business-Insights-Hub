@@ -1,4 +1,4 @@
-## Adventure Works Cycle Co.
+# Adventure Works Cycle Co.
 AW is a fictional company, created by Microsoft, that manufactures and sells bicycles, bicycle parts, and accessories along with other related products.
 
 For this project, I am using the `AdventureWorks Sales` dataset.
@@ -13,7 +13,7 @@ Key highlights include demand forecasting, RFM customer segmentation analysis, e
 
 This platform provides AW with actionable insights to drive strategic decision-making and business growth.
 
-## Gallery
+## Product Gallery
 [Gallery PDF Link](%5BPDF%5D%20-%20AW%20BIH.pdf)
 
 ![Home Page](https://github.com/user-attachments/assets/c00c07ce-1be0-4ca1-a7d1-23fe15a2b222)
@@ -109,3 +109,19 @@ This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Di
 | Full Date | The complete date in "YYYY MMM, DD" format, providing a full textual representation of the date (e.g., 2017 Jul, 01). |
 | MonthKey | Unique identifier for each month in YYYYMM format, used to represent the month without specific day detail (e.g., 201707). |
 
+## Data Ingestion
+Data is imported into Power BI through Power Query, where it is cleaned, transformed, and prepared for analysis.
+
+## Data Processing
+- appended "F" and "D" to table names to label as fact / dimension for easy reading and access
+- applied first rows as headers
+- handled missing and duplicate values
+- ensured consistency in data types
+- inspected data quality and data distributions
+- checked for outliers
+- checked cardinality
+- created a ton of measures and calculated columns
+- appended "_" to measures and calculated columns to push to top for easy reading and access
+- connected tables using star schema, dimension tables connected to fact tables in a one-to-many relationship
+- build entity-relationship diagram
+- ![image](https://github.com/user-attachments/assets/1d7a383e-4c18-41ee-97b5-6613b4228cbe)
