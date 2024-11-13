@@ -70,7 +70,7 @@ This platform provides AW with actionable insights to drive strategic decision-m
 #### Future Work / Other Ideas & Improvements
 - customer life time value analysis
 - churn prediction
-- anomaly detection (unusual sales spikes / dipss)
+- anomaly detection (unusual sales spikes / dips)
 - product recommendation system
 - basket analysis and association rule mining
 - competitor analysis
