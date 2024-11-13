@@ -78,7 +78,7 @@ This platform provides AW with actionable insights to drive strategic decision-m
 - what-if scenario planning
 - data quality monitoring
 
-## Building the platform using Power BI
+## Building the platform on Power BI
 ### Understanding the data - data Dictionary
 This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Dimension tables.
 
