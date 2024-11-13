@@ -15,9 +15,9 @@ This platform provides AW with actionable insights to drive strategic decision-m
 ## Product Gallery
 [Gallery PDF Link](%5BPDF%5D%20-%20AW%20BIH.pdf)
 
-![Home Page](https://github.com/user-attachments/assets/c00c07ce-1be0-4ca1-a7d1-23fe15a2b222)
-![Sales Report](https://github.com/user-attachments/assets/f3a1d72f-5886-447c-b392-7e45f4f47338)
-![Customer Insights](https://github.com/user-attachments/assets/0d755511-aa7a-4710-8dd3-5632024033e9)
+![Home Page](https://github.com/user-attachments/assets/d2184ea7-3574-4f06-ad62-788101474563)
+![Sales Report](https://github.com/user-attachments/assets/7abcd055-12de-4a1a-bce7-ee0f38fdb800)
+![Customer Insights](https://github.com/user-attachments/assets/c2f0163d-4389-4e5e-84ea-97b0361d2386)
 ![Orders Analysis](https://github.com/user-attachments/assets/7a8bc339-d18f-4007-ae87-b3742b0bbbd8)
 ![Resellers Performance](https://github.com/user-attachments/assets/752bf521-7161-40c6-98e8-1db1566d5139)
 ![Products & Demand Forecasting](https://github.com/user-attachments/assets/40bce79c-7891-4242-9f10-4e3dcf7c2f39)
@@ -115,6 +115,7 @@ Data is imported into Power BI through Power Query, where it is cleaned, transfo
 ## Data Processing
 - appended "F" and "D" to table names to label as fact / dimension for easy reading and access
 - applied first rows as headers
+- scaled down scope to FY19 & FY20
 - handled missing and duplicate values
 - ensured consistency in data types
 - inspected data quality and data distributions
@@ -125,3 +126,26 @@ Data is imported into Power BI through Power Query, where it is cleaned, transfo
 - connected tables using star schema, dimension tables connected to fact tables in a one-to-many relationship
 - build entity-relationship diagram
 - ![image](https://github.com/user-attachments/assets/1d7a383e-4c18-41ee-97b5-6613b4228cbe)
+
+## Analytics and Insights
+### Observations 
+- both sales and profit have shown a consistent upward trend from 2019 to 2020
+- key markets: US and Australia accounts for most sales and profits
+- bikes are the primary revenue driver, contributing significantly to overall financial performance
+- most units sold are accessories
+- average order value = $720, with a positive profit margin (indicating healthy financial situation)
+- profit represents approx. 2/5 of total sales, reflecting strong profitability
+
+### Customer
+
+## Future Work / Other Ideas & Improvements
+- customer life time value analysis
+- churn prediction
+- anomaly detection (unusual sales spikes / dipss)
+- product recommendation system
+- demographic segmentation
+- what-if scenario planning
+- data quality monitoring
+
+## Opportunities for Collaboration
+Like what you see? Let's connect! Feel free to message me on [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/) 😊
