@@ -3,7 +3,7 @@ AW is a fictional company, created by Microsoft, that manufactures and sells bic
 
 For this project, I am using the `AdventureWorks Sales` dataset.
 
-Link: [AdventureWorks Sales Data](https://github.com/microsoft/powerbi-desktop-samples/blob/main/AdventureWorks%20Sales%20Sample/AdventureWorks%20Sales.xlsx)
+Link: [Adventure Works Sales Data](https://github.com/microsoft/powerbi-desktop-samples/blob/main/AdventureWorks%20Sales%20Sample/AdventureWorks%20Sales.xlsx)
 
 ## Project Overview - Business Insights Hub
 I developed the Business Insights Hub (BIH) as a comprehensive analytics & insights platform for Adventure Works (AW), offering insights into various facets of the business using AW's sales data. This platform serves as a one-stop shop for understanding key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
@@ -23,8 +23,63 @@ This platform provides AW with actionable insights to drive strategic decision-m
 ![Products & Demand Forecasting](https://github.com/user-attachments/assets/40bce79c-7891-4242-9f10-4e3dcf7c2f39)
 ![Sales Data Download](https://github.com/user-attachments/assets/eb478ce8-76ef-4d68-af0b-d496a4ea48f2)
 
-## Understanding the data
-### Data Dictionary
+## Analysis and Insights
+#### Overview
+- both sales and profit have shown a consistent upward trend from 2019 to 2020
+- key markets: US and Australia accounts for most sales and profits
+- bikes are the primary revenue driver, contributing significantly to overall financial performance
+- most units sold are accessories
+- average order value = $720, with a positive profit margin (indicating healthy financial situation)
+- profit represents approx. 2/5 of total sales, reflecting strong profitability
+- secured 18K customers in FY20, 10% being new customers, however, 5% of customers are lost during the year
+
+#### Customers
+- champion and loyal customers account for approx. 15% of customer base, implement reward and membership system to engage and retain these high-value customers
+- 10% of customers are potential loyalists, nurture them through personalized offers
+- 10% of customers are new, focus on onboarding and engagement strategies, convert them to long-term customers
+- around 30% of customers are at risk -> win them back with renewals, discount, new products that cater to their needs
+- dormant customers, about to "sleep" -> recommend popular products or those likely to appeal to their preferences
+- gain deeper understanding of customer base, proportion of hobbyists, large families, and othe rkey segments.
+- export individual segments for targeted marketing and strategic support
+- add CLV and churn prediction to monitor customer status
+
+#### Orders
+- most orders were placed between march and may, indicating seasonal surge in demand, adjust inventory accordingly
+- timing: orders were usually placed in the middle of the week, suggesting customers prefer to make purchases during weekdays, likely in anticipation of the weekend
+- US and Aus accounts for most orders, most important markets
+- tires and tubes, bottles and cages, helmets are the most frequently ordered product categories
+- noticeable upward trend of high AOV order, indicating increase in premium or bulk purchases over time
+- introduce premium product bundles / volume-based discounts to encourage higher AOV purchases across various product categories
+- focus marketing effort on top-selling categories with cross-selling opportunities for related accessories and upgrade
+
+#### Reseller
+- most sales were made to warehouse and value-added resellers
+- total of $36M sales were made to resellers in FY20
+- not all sales to resellers generated a profit, suggesting the need to evaluate the terms and profitability of reseller agreements
+- assess profitability of each reseller to identify high- and low-performing partners
+- focus on strengthening relationships with high margin resellers
+- revisit pricing / contract structures with those that consistently underperform / return loss
+- diversify reseller base to expand into other reseller segments ot regions to increase sales
+  
+#### Product
+- best selling SKUs (sales amount) are the mountain bike mountain-200 series and road-250 series
+- focus on promoting popular products, expand inventory, and offer bundled deals to capitalize on their popularity
+- conduct basket analysis and association rule mining to discover frequent itemsets
+- product bundling, cross selling, and store layout optimization (arrange frequently bought-together items together in physical stores and on e-commerce sites to increase convenience and sales)
+
+#### Future Work / Other Ideas & Improvements
+- customer life time value analysis
+- churn prediction
+- anomaly detection (unusual sales spikes / dipss)
+- product recommendation system
+- basket analysis and association rule mining
+- competitor analysis
+- demographic segmentation
+- what-if scenario planning
+- data quality monitoring
+
+## Building the platform using Power BI
+### Understanding the data - data Dictionary
 This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Dimension tables.
 
 #### Fact Tables
@@ -121,66 +176,11 @@ Data is imported into Power BI through Power Query, where it is cleaned, transfo
 - inspected data quality and data distributions
 - checked for outliers
 - checked cardinality
-- created a ton of measures and calculated columns for advanced analysis by writing DAX code
+- created measures and calculated columns for advanced analysis by writing DAX code
 - appended "_" to measures and calculated columns to push to top for easy reading and access
 - connected tables using star schema, dimension tables connected to fact tables in a one-to-many relationship
-- build entity-relationship diagram
+- entity-relationship diagram
 - ![image](https://github.com/user-attachments/assets/1d7a383e-4c18-41ee-97b5-6613b4228cbe)
-
-## Analytics and Insights
-Overview
-- both sales and profit have shown a consistent upward trend from 2019 to 2020
-- key markets: US and Australia accounts for most sales and profits
-- bikes are the primary revenue driver, contributing significantly to overall financial performance
-- most units sold are accessories
-- average order value = $720, with a positive profit margin (indicating healthy financial situation)
-- profit represents approx. 2/5 of total sales, reflecting strong profitability
-- secured 18K customers in FY20, 10% being new customers, however, 5% of customers are lost during the year
-
-Customers
-- champion and loyal customers account for approx. 15% of customer base, implement reward and membership system to engage and retain these high-value customers
-- 10% of customers are potential loyalists, nurture them through personalized offers
-- 10% of customers are new, focus on onboarding and engagement strategies, convert them to long-term customers
-- around 30% of customers are at risk -> win them back with renewals, discount, new products that cater to their needs
-- dormant customers, about to "sleep" -> recommend popular products or those likely to appeal to their preferences
-- gain deeper understanding of customer base, proportion of hobbyists, large families, and othe rkey segments.
-- export individual segments for targeted marketing and strategic support
-- add CLV and churn prediction to monitor customer status
-
-Orders
-- most orders were placed between march and may, indicating seasonal surge in demand, adjust inventory accordingly
-- timing: orders were usually placed in the middle of the week, suggesting customers prefer to make purchases during weekdays, likely in anticipation of the weekend
-- US and Aus accounts for most orders, most important markets
-- tires and tubes, bottles and cages, helmets are the most frequently ordered product categories
-- noticeable upward trend of high AOV order, indicating increase in premium or bulk purchases over time
-- introduce premium product bundles / volume-based discounts to encourage higher AOV purchases across various product categories
-- focus marketing effort on top-selling categories with cross-selling opportunities for related accessories and upgrade
-
-Reseller
-- most sales were made to warehouse and value-added resellers
-- total of $36M sales were made to resellers in FY20
-- not all sales to resellers generated a profit, suggesting the need to evaluate the terms and profitability of reseller agreements
-- assess profitability of each reseller to identify high- and low-performing partners
-- focus on strengthening relationships with high margin resellers
-- revisit pricing / contract structures with those that consistently underperform / return loss
-- diversify reseller base to expand into other reseller segments ot regions to increase sales
-  
-Product
-- best selling SKUs (sales amount) are the mountain bike mountain-200 series and road-250 series
-- focus on promoting popular products, expand inventory, and offer bundled deals to capitalize on their popularity
-- conduct basket analysis and association rule mining to discover frequent itemsets
-- product bundling, cross selling, and store layout optimization (arrange frequently bought-together items together in physical stores and on e-commerce sites to increase convenience and sales)
-
-## Future Work / Other Ideas & Improvements
-- customer life time value analysis
-- churn prediction
-- anomaly detection (unusual sales spikes / dipss)
-- product recommendation system
-- basket analysis and association rule mining
-- competitor analysis
-- demographic segmentation
-- what-if scenario planning
-- data quality monitoring
 
 ## Opportunities for Collaboration
 Like what you see? Let's connect! Feel free to message me on [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/) 😊
