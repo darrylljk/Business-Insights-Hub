@@ -5,7 +5,6 @@ For this project, I am using the `AdventureWorks Sales` dataset.
 
 Link: [AdventureWorks Sales Data](https://github.com/microsoft/powerbi-desktop-samples/blob/main/AdventureWorks%20Sales%20Sample/AdventureWorks%20Sales.xlsx)
 
-
 ## Project Overview - Business Insights Hub
 I developed the Business Insights Hub (BIH) as a comprehensive analytics & insights platform for Adventure Works (AW), offering insights into various facets of the business using AW's sales data. This platform serves as a one-stop shop for understanding key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
 
@@ -24,11 +23,12 @@ This platform provides AW with actionable insights to drive strategic decision-m
 ![Products & Demand Forecasting](https://github.com/user-attachments/assets/40bce79c-7891-4242-9f10-4e3dcf7c2f39)
 ![Sales Data Download](https://github.com/user-attachments/assets/eb478ce8-76ef-4d68-af0b-d496a4ea48f2)
 
-## Data Dictionary
+## Understanding the data
+### Data Dictionary
 This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Dimension tables.
 
-### Fact Tables
-#### 1. Sales: contains sales transaction details
+#### Fact Tables
+##### 1. Sales: contains sales transaction details
 
 | Column Name | Description |
 | --- | --- |
@@ -48,7 +48,7 @@ This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Di
 | Total Product Cost | The total cost of the ordered quantity of the product (Product Standard Cost * Order Quantity). |
 | Sales Amount | The total sales amount for the line item, after discounts are applied (Extended Amount - Discount). |
 
-#### 2. Sales Order: track individual sales order lines 
+##### 2. Sales Order: track individual sales order lines 
 | Column Name | Description |
 | --- | --- |
 | Channel | The sales channel for the order (e.g., "Reseller") |
@@ -56,8 +56,8 @@ This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Di
 | Sales Order | Unique identifier for the sales order |
 | Sales Order Line | Unique identifier for the specific sales order line (combination of Sales Order and line number) |
 
-### Dimension Tables
-#### 1. Product: product lookup
+#### Dimension Tables
+##### 1. Product: product lookup
 | Column Name | Description |
 | --- | --- |
 | ProductKey | Unique identifier for each product. |
@@ -68,7 +68,7 @@ This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Di
 | List Price | The selling price of the product. |
 | Model | Model name or series to which the product belongs. |
 
-#### 2. Customer: customer lookup
+##### 2. Customer: customer lookup
 | Column Name | Description |
 | --- | --- |
 | CustomerKey | Unique identifier for each customer. |
@@ -79,7 +79,7 @@ This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Di
 | Country-Region | Country or region of the customer. |
 | Postal Code | Postal or ZIP code for the customer’s address |
 
-#### 3. Reseller: reseller lookup
+##### 3. Reseller: reseller lookup
 | Column Name | Description |
 | --- | --- |
 | ResellerKey | Unique identifier for each reseller |
@@ -90,7 +90,7 @@ This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Di
 | State-Province | State or province where the reseller is located |
 | Country-Region | Country or region where the reseller is located |
 
-#### 4. Sales territory: sales territory lookup
+##### 4. Sales territory: sales territory lookup
 | Column Name | Description |
 | --- | --- |
 | SalesTerritoryKey | Unique identifier for each sales territory |
@@ -98,7 +98,7 @@ This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Di
 | Country | Country associated with sales territory |
 | Group | Grouping of territory based on organizational divisions |
 
-#### 5. Date: date lookup
+##### 5. Date: date lookup
 | Column Name | Description |
 | --- | --- |
 | DateKey | Unique identifier for each date in YYYYMMDD format. |
@@ -120,7 +120,7 @@ Data is imported into Power BI through Power Query, where it is cleaned, transfo
 - inspected data quality and data distributions
 - checked for outliers
 - checked cardinality
-- created a ton of measures and calculated columns via DAX code
+- created a ton of measures and calculated columns for advanced analysis by writing DAX code
 - appended "_" to measures and calculated columns to push to top for easy reading and access
 - connected tables using star schema, dimension tables connected to fact tables in a one-to-many relationship
 - build entity-relationship diagram
