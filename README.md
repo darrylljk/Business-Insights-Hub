@@ -120,7 +120,7 @@ Data is imported into Power BI through Power Query, where it is cleaned, transfo
 - inspected data quality and data distributions
 - checked for outliers
 - checked cardinality
-- created a ton of measures and calculated columns
+- created a ton of measures and calculated columns via DAX code
 - appended "_" to measures and calculated columns to push to top for easy reading and access
 - connected tables using star schema, dimension tables connected to fact tables in a one-to-many relationship
 - build entity-relationship diagram
