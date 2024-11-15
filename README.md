@@ -183,4 +183,4 @@ Data is imported into Power BI through Power Query, where it is cleaned, transfo
 - ![image](https://github.com/user-attachments/assets/1d7a383e-4c18-41ee-97b5-6613b4228cbe)
 
 ## Collab Opportunities
-Like what you see? Let's connect! Feel free to message me on [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/) 😊
+Like what you see? Let's connect! Send me a DM on [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/) 😊
