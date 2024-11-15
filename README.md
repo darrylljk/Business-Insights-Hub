@@ -6,7 +6,7 @@ For this project, I am using the `AdventureWorks Sales` dataset.
 Link: [Adventure Works Sales Data](https://github.com/microsoft/powerbi-desktop-samples/blob/main/AdventureWorks%20Sales%20Sample/AdventureWorks%20Sales.xlsx)
 
 ## Project Overview - Business Insights Hub
-I developed the Business Insights Hub (BIH) as a comprehensive analytics & insights platform for Adventure Works (AW), offering insights into various facets of the business using AW's sales data. This platform serves as a one-stop shop for understanding key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
+I've developed the Business Insights Hub (BIH) as a comprehensive analytics & insights platform for Adventure Works (AW), offering insights into various facets of the business using AW's sales data. This platform serves as a one-stop shop for understanding key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
 
 Key highlights include demand forecasting, RFM customer segmentation analysis, executive sales report, sales and profitability by region, product trends, seasonal patterns, and reseller performance evaluation.
 
