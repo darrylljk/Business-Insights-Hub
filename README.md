@@ -182,5 +182,5 @@ Data is imported into Power BI through Power Query, where it is cleaned, transfo
 - entity-relationship diagram
 - ![image](https://github.com/user-attachments/assets/1d7a383e-4c18-41ee-97b5-6613b4228cbe)
 
-## Opportunities for Collaboration
+## Collab Opportunities
 Like what you see? Let's connect! Feel free to message me on [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/) 😊
