@@ -1,4 +1,4 @@
-# Adventure Works Business Insights Hub
+# Business Insights Hub
 ## Adventure Works
 AW is a fictional company, created by Microsoft, that manufactures and sells bicycles, bicycle parts, and accessories along with other related products.
 
