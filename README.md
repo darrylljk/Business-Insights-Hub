@@ -2,7 +2,7 @@
 ## Adventure Works
 AW is a fictional company, created by Microsoft, that manufactures and sells bicycles, bicycle parts, and accessories along with other related products.
 
-For this project, I am using the `AdventureWorks Sales` dataset.
+For this project, I am using `AdventureWorks Sales` dataset.
 
 Link: [Adventure Works Sales Data](https://github.com/microsoft/powerbi-desktop-samples/blob/main/AdventureWorks%20Sales%20Sample/AdventureWorks%20Sales.xlsx)
 
