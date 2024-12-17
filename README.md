@@ -1,18 +1,19 @@
 # Business Insights Hub
-## Adventure Works
+
+## Project Overview
+The Business Insights Hub (BIH) is an enterprise-grade analytics platform for Adventure Works, offering insights into various facets of the business using sales data. This platform serves as a one-stop shop for understanding key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
+
+Key highlights include demand forecasting, RFM customer segmentation analysis, executive sales report, sales and profitability by region, product trends, seasonal patterns, and reseller performance evaluation.
+
+### Adventure Works
 Adventure Works (AW) is a fictional company, created by Microsoft, that manufactures and sells bicycles, bicycle parts, and accessories along with other related products.
 
 For this project, I am using `AdventureWorks Sales` dataset by Microsoft.
 
 Link: [Adventure Works Sales Data](https://github.com/microsoft/powerbi-desktop-samples/blob/main/AdventureWorks%20Sales%20Sample/AdventureWorks%20Sales.xlsx)
 
-## Project Overview - Business Insights Hub
-The Business Insights Hub (BIH) is an enterprise-grade analytics platform for Adventure Works, offering insights into various facets of the business using sales data. This platform serves as a one-stop shop for understanding key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
-
-Key highlights include demand forecasting, RFM customer segmentation analysis, executive sales report, sales and profitability by region, product trends, seasonal patterns, and reseller performance evaluation.
-
 ## Product Gallery
-[Gallery PDF Link](%5BPDF%5D%20-%20AW%20BIH.pdf)
+[Screenshots PDF](%5BPDF%5D%20-%20AW%20BIH.pdf)
 
 ![Home Page](https://github.com/user-attachments/assets/d2184ea7-3574-4f06-ad62-788101474563)
 ![Sales Report](https://github.com/user-attachments/assets/7abcd055-12de-4a1a-bce7-ee0f38fdb800)
