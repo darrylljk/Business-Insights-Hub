@@ -1,7 +1,11 @@
-# Business Insights Hub
+# Adventure Works' Business Insights Hub
 
 ## Project Overview
-The Business Insights Hub (BIH) is an enterprise-grade analytics platform for Adventure Works, offering insights into various facets of the business using sales data. This platform serves as a one-stop shop for understanding key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
+### Motivation
+I built the Business Insights Hub (BIH) to empower Adventure Works with data-driven decision-making capabilities, enabling deeper insights into sales performance, customer behavior, and market trends. By centralizing critical business analytics, this platform enhances the ability to forecast demand, optimize sales strategies, and improve overall operational efficiency.
+
+### Business Insights Hub
+The Business Insights Hub (BIH) is an enterprise-grade analytics platform, offering insights into various facets of Adventure Works' business using sales data. This platform serves as a one-stop shop for data analysis across key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
 
 Key highlights include demand forecasting, RFM customer segmentation analysis, executive sales report, sales and profitability by region, product trends, seasonal patterns, and reseller performance evaluation.
 
@@ -12,8 +16,8 @@ For this project, I am using `AdventureWorks Sales` dataset by Microsoft.
 
 Link: [Adventure Works Sales Data](https://github.com/microsoft/powerbi-desktop-samples/blob/main/AdventureWorks%20Sales%20Sample/AdventureWorks%20Sales.xlsx)
 
-## Product Gallery
-[Screenshots PDF](%5BPDF%5D%20-%20AW%20BIH.pdf)
+## Gallery
+[PDF version](%5BPDF%5D%20-%20AW%20BIH.pdf)
 
 ![Home Page](https://github.com/user-attachments/assets/d2184ea7-3574-4f06-ad62-788101474563)
 ![Sales Report](https://github.com/user-attachments/assets/7abcd055-12de-4a1a-bce7-ee0f38fdb800)
@@ -78,8 +82,8 @@ Link: [Adventure Works Sales Data](https://github.com/microsoft/powerbi-desktop-
 - what-if scenario planning
 - data quality monitoring
 
-## Building the platform on Power BI
-### Understanding the data - data Dictionary
+## Building the analytics platform on Power BI
+### Understanding the data - data dictionary
 This data set contains 7 tables, which we'll categorize into (F) Fact and (D) Dimension tables.
 
 #### Fact Tables
