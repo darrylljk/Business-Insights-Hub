@@ -2,7 +2,7 @@
 
 ## Project Overview
 ### Motivation
-This is a personal project of mine centering around data analysis and visualization using Power BI and Power Query. I built the Business Insights Hub as a demo for real-world companies to showcase how they can leverage data-driven insights in an all-in-one platform to improve business performance, optimize decision-making, and identify growth opportunities across key areas such as sales, customer behavior, and product trends.
+This is a personal project of mine centering around data analysis and visualization with Power BI and Power Query. I built the Business Insights Hub as a demo for real-world companies to showcase how they can leverage data-driven insights in an all-in-one platform to improve business performance, optimize decision-making, and identify growth opportunities across key areas such as sales, customer behavior, and product trends.
 
 ### About the Business Insights Hub
 The Business Insights Hub is an enterprise-grade analytics platform, offering insights into various facets of Adventure Works' business using sales data. This platform serves as a one-stop shop for data analysis across key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
