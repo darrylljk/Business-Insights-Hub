@@ -2,12 +2,12 @@
 
 ## Project Overview
 ### Motivation
-I built the Business Insights Hub (BIH) to empower Adventure Works with data-driven decision-making capabilities, enabling deeper insights into sales performance, customer behavior, and market trends. By centralizing critical business analytics, this platform enhances the ability to forecast demand, optimize sales strategies, and improve overall operational efficiency.
+This is a personal project of mine centering around data analysis and visualization using Power BI and Power Query. I built the Business Insights Hub as a demo for real-world companies to showcase how they can leverage data-driven insights to improve business performance, optimize decision-making, and identify growth opportunities across key areas such as sales, customer behavior, and product trends.
 
-### Business Insights Hub
-The Business Insights Hub (BIH) is an enterprise-grade analytics platform, offering insights into various facets of Adventure Works' business using sales data. This platform serves as a one-stop shop for data analysis across key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
+### About the Business Insights Hub
+The Business Insights Hub is an enterprise-grade analytics platform, offering insights into various facets of Adventure Works' business using sales data. This platform serves as a one-stop shop for data analysis across key areas, including sales performance, customer segments, product trends, purchasing patterns, and reseller performance.
 
-Key highlights include demand forecasting, RFM customer segmentation analysis, executive sales report, sales and profitability by region, product trends, seasonal patterns, and reseller performance evaluation.
+Platform highlights include demand forecasting, RFM customer segmentation analysis, executive sales report, sales and profitability by region, product trends, seasonal patterns, and reseller performance evaluation.
 
 ### Adventure Works
 Adventure Works (AW) is a fictional company, created by Microsoft, that manufactures and sells bicycles, bicycle parts, and accessories along with other related products.
